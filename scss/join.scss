@@ -1,0 +1,163 @@
+#join {
+    background-color: black;
+}
+
+.join-title {
+    text-align: center;
+
+    h1 {
+        color: white;
+        font-weight: bold;
+        padding-bottom: 20px;
+    }
+
+}
+
+.join-complete-form {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: 
+    'account' 
+    'personal' 
+    'membership' 
+    'payment'
+    ;
+
+    h3 {
+        text-align: center ;
+        font-weight: 600;
+        border-bottom: solid 1px $color-primary;
+        padding-bottom: 5px;
+    }
+
+    h3, p, label {
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+
+.join-create-account {
+    grid-area: account;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.join-personal-data {
+    grid-area: personal;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.join-membership-selection {
+    grid-area: membership;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.join-payment-method {
+    grid-area: payment;
+    display: flex;
+    flex-direction: column;
+}
+
+.select-gender {
+    width: 188px;
+}
+
+.select-memberships {
+    width: 188px;
+}
+
+.select-payment {
+    width: 188px;
+}
+
+.join-send-info {
+    text-align: center;
+    padding-top: 50px;
+
+    input {
+        background-color: $color-primary;
+        border: solid 2px $color-primary;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        margin: 0px 10px 10px 10px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .join-complete-form {
+        grid-template-areas: 
+        'account personal'
+        'membership payment'
+        ;
+    }
+
+    .join-mail-password {
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .join-name-lastname {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .join-identitynumber-gender {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select-gender {
+        width: 188px;
+    }
+
+    .join-membership-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select-memberships {
+        width: 188px;
+    }
+
+    .join-payment-method-options {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .select-payment {
+        width: 188px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .join-complete-form {
+        grid-template-areas: 
+        'account personal membership payment'
+        ;
+    }
+
+    .join-membership-options {
+        height: 375px;    
+    }
+
+    .join-payment-method-options {
+        height: 375px;
+    }
+}

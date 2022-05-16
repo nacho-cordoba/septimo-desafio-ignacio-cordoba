@@ -1,0 +1,40 @@
+.home-header {
+    background-image: linear-gradient(0deg, #000000c7, #0000008e),url(../img/man-lifting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    text-align: center;
+}
+
+.home-header-title {
+    color: white;
+    padding: 175px 0px 100px 0px;
+
+    h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    h2 {
+        font-weight: 600;
+    }
+
+}
+
+.home-header-subtitle {
+    border: $color-primary 2px solid;
+    background-color: $color-primary;
+    border-radius: 10px;
+    margin: 0px 15px;
+
+    h2 {
+        padding-top: 8px;
+    }
+
+    a {
+        color: white;
+        font-weight: 600;
+        text-decoration: none;
+    }
+}

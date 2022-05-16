@@ -1,0 +1,429 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none; }
+
+.navbar-brand {
+  font-size: 25px;
+  padding-left: 25px;
+  color: white; }
+  .navbar-brand:hover {
+    color: white; }
+  .navbar-brand span {
+    color: #eb5e28;
+    font-weight: bold; }
+
+.navbar-toggler:hover {
+  color: white; }
+
+.nav-link {
+  color: white;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center; }
+  .nav-link:hover {
+    color: #eb5e28;
+    transform: scale(1.05); }
+
+.nav-item-features {
+  display: none; }
+
+@media screen and (min-width: 768px) {
+  .nav-item-features {
+    display: block; } }
+
+.home-header {
+  background-image: linear-gradient(0deg, #000000c7, #0000008e), url(../img/man-lifting.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  text-align: center; }
+
+.home-header-title {
+  color: white;
+  padding: 175px 0px 100px 0px; }
+  .home-header-title h1 {
+    font-size: 50px;
+    font-weight: 600; }
+  .home-header-title h2 {
+    font-weight: 600; }
+
+.home-header-subtitle {
+  border: #eb5e28 2px solid;
+  background-color: #eb5e28;
+  border-radius: 10px;
+  margin: 0px 15px; }
+  .home-header-subtitle h2 {
+    padding-top: 8px; }
+  .home-header-subtitle a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none; }
+
+#about-us {
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  padding: 48px 0px;
+  color: #fffcf2; }
+
+.about-us-text {
+  display: flex;
+  flex-direction: column; }
+
+.about-us-title {
+  text-align: center;
+  padding-bottom: 24px; }
+  .about-us-title h3 {
+    font-size: 25px;
+    font-weight: bold; }
+
+.about-us-subtitle {
+  text-align: center;
+  font-size: 20px;
+  padding: 0px 24px; }
+  .about-us-subtitle span {
+    font-weight: 800;
+    color: #eb5e28; }
+
+#features {
+  display: none; }
+
+#memberships {
+  background-color: black;
+  padding-top: 0px; }
+  #memberships h4 {
+    border-bottom: solid 2px #eb5e28;
+    text-align: center; }
+  #memberships h4, #memberships li {
+    padding: 10px 0px;
+    color: white; }
+
+.memberships-title h3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold; }
+
+.memberships-title p {
+  font-size: 20px;
+  padding-top: 20px;
+  color: white;
+  text-align: center; }
+
+.memberships-basic ul {
+  list-style-type: none;
+  text-align: center; }
+
+.memberships-basic a {
+  border: solid #eb5e28;
+  border-radius: 8px;
+  margin-top: 35px;
+  font-size: 20px;
+  background: #eb5e28;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  padding: 5px; }
+  .memberships-basic a:hover {
+    font-size: larger; }
+
+.memberships-full ul {
+  list-style-type: none;
+  text-align: center; }
+
+.memberships-full a {
+  border: solid #eb5e28;
+  border-radius: 8px;
+  font-size: 20px;
+  background: #eb5e28;
+  font-weight: bolder;
+  color: white;
+  text-decoration: none;
+  padding: 5px; }
+  .memberships-full a:hover {
+    font-size: larger; }
+
+#contact {
+  background-color: black;
+  padding: 35px 0px 100px 20px; }
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white; }
+  .contact-title h3 {
+    font-size: 30px; }
+  .contact-title span {
+    color: #eb5e28;
+    font-weight: bold; }
+
+.contact-socials {
+  padding: 0px 20px 20px 20px; }
+  .contact-socials h6 {
+    color: white;
+    text-align: center; }
+  .contact-socials ul {
+    text-align: center;
+    padding-right: 20px; }
+  .contact-socials ul li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center; }
+  .contact-socials ul li a {
+    display: block;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: solid 2px white; }
+  .contact-socials ul li .instagram:hover {
+    background: #eb5e28; }
+  .contact-socials ul li .facebook:hover {
+    background: #eb5e28; }
+  .contact-socials ul li .youtube:hover {
+    background: #eb5e28; }
+
+.contact-help {
+  padding: 0px 20px 20px 20px; }
+  .contact-help h6 {
+    color: white;
+    text-align: center; }
+
+.contact-contact {
+  padding: 0px 20px 20px 20px; }
+  .contact-contact h6 {
+    color: white;
+    text-align: center; }
+  .contact-contact ul {
+    text-align: center;
+    padding-right: 20px; }
+  .contact-contact ul li {
+    display: inline-block;
+    margin: 0px 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center; }
+  .contact-contact ul li a {
+    display: block;
+    color: white;
+    line-height: 50px;
+    font-size: 25px;
+    border-radius: 50px;
+    border: solid 2px white; }
+  .contact-contact ul li .whatsapp:hover {
+    background: #eb5e28; }
+  .contact-contact ul li .mail:hover {
+    background: #eb5e28; }
+
+#join {
+  background-color: black; }
+
+.join-title {
+  text-align: center; }
+  .join-title h1 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px; }
+
+.join-complete-form {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-areas: 'account'  'personal'  'membership'  'payment'; }
+  .join-complete-form h3 {
+    text-align: center;
+    font-weight: 600;
+    border-bottom: solid 1px #eb5e28;
+    padding-bottom: 5px; }
+  .join-complete-form h3, .join-complete-form p, .join-complete-form label {
+    color: white;
+    margin-bottom: 20px; }
+
+.join-create-account {
+  grid-area: account;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.join-personal-data {
+  grid-area: personal;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.join-membership-selection {
+  grid-area: membership;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column; }
+
+.join-payment-method {
+  grid-area: payment;
+  display: flex;
+  flex-direction: column; }
+
+.select-gender {
+  width: 188px; }
+
+.select-memberships {
+  width: 188px; }
+
+.select-payment {
+  width: 188px; }
+
+.join-send-info {
+  text-align: center;
+  padding-top: 50px; }
+  .join-send-info input {
+    background-color: #eb5e28;
+    border: solid 2px #eb5e28;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0px 10px 10px 10px; }
+
+@media screen and (min-width: 700px) {
+  .join-complete-form {
+    grid-template-areas: 'account personal' 'membership payment'; }
+  .join-mail-password {
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .join-name-lastname {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .join-identitynumber-gender {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .select-gender {
+    width: 188px; }
+  .join-membership-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .select-memberships {
+    width: 188px; }
+  .join-payment-method-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .select-payment {
+    width: 188px; } }
+
+@media screen and (min-width: 1200px) {
+  .join-complete-form {
+    grid-template-areas: 'account personal membership payment'; }
+  .join-membership-options {
+    height: 375px; }
+  .join-payment-method-options {
+    height: 375px; } }
+
+#our-gyms {
+  background-color: black;
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 20px; }
+
+.our-gyms-title {
+  text-align: center;
+  margin-bottom: 35px;
+  padding: 0px 10px; }
+  .our-gyms-title h1 {
+    font-weight: bold; }
+
+.our-gyms-branchs h4 {
+  color: #eb5e28;
+  font-weight: 800; }
+
+.our-gyms-branchs-belgrano {
+  text-align: center;
+  font-weight: 600; }
+
+.our-gyms-branchs-boedo {
+  text-align: center;
+  font-weight: 600; }
+
+.our-gyms-branchs-caballito {
+  text-align: center;
+  font-weight: 600; }
+
+.our-gyms-branchs-palermo {
+  text-align: center;
+  font-weight: 600; }
+
+.our-gyms-branchs-recoleta {
+  text-align: center;
+  font-weight: 600; }
+
+.our-gyms-branchs-vicentelopez {
+  text-align: center;
+  font-weight: 600; }
+
+#classes {
+  background-color: black;
+  color: #fffcf2;
+  padding-bottom: 50px; }
+
+.classes-title {
+  display: flex;
+  justify-content: center;
+  padding: 35px 0px; }
+  .classes-title h1 {
+    font-weight: bold; }
+
+.classes-complete-table {
+  display: flex;
+  justify-content: center; }
+  .classes-complete-table th {
+    background-color: #eb5e28;
+    text-align: center;
+    height: 35px;
+    width: 175px; }
+  .classes-complete-table tr {
+    text-align: center; }
+  .classes-complete-table td p {
+    padding: 10px;
+    border-bottom: solid #eb5e28 1px;
+    border-right: solid #eb5e28 1px;
+    border-left: solid #eb5e28 1px;
+    font-weight: bold;
+    font-size: 18px; }
+
+#faq {
+  background-color: black;
+  padding-bottom: 120px; }
+
+.faq-title {
+  text-align: center; }
+  .faq-title h1 {
+    color: white;
+    font-weight: bold; }
+
+.accordion-item {
+  background-color: black; }
+  .accordion-item p {
+    color: white;
+    font-weight: 600; }
+
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%) invert(100%); }
+
+.accordion-button:focus {
+  box-shadow: inherit; }
+
+.accordion-button p {
+  border-left: solid 1px #eb5e28;
+  padding-left: 10px; }

@@ -1,0 +1,39 @@
+.navbar-brand {
+    font-size: 25px;
+    padding-left: 25px;
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+
+    span {
+        color: $color-primary;
+        font-weight: bold;
+    }
+}
+
+.navbar-toggler:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: center;
+
+    &:hover {
+        color: $color-primary;
+        transform: scale(1.05);
+    }
+}
+.nav-item-features {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .nav-item-features {
+        display: block;
+    }
+}

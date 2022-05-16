@@ -1,0 +1,38 @@
+#faq {
+    background-color: black;
+    padding-bottom: 120px;
+}
+
+.faq-title {
+    text-align: center;
+
+    h1 {
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.accordion-item {
+    background-color: black;
+
+    p {
+        color: white;
+        font-weight: 600;
+    }
+}
+
+.accordion-button {
+
+    &:not(.collapsed)::after {
+        filter: brightness(0%) invert(100%);
+    }
+
+    &:focus {
+        box-shadow: inherit;
+    }
+
+    p {
+        border-left: solid 1px $color-primary;
+        padding-left: 10px;
+    }
+}

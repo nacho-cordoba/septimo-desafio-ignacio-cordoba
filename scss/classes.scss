@@ -1,0 +1,40 @@
+#classes {
+    background-color: black;
+    color: #fffcf2;
+    padding-bottom: 50px;
+}
+
+.classes-title {
+    display: flex;
+    justify-content: center;
+    padding: 35px 0px;
+
+    h1 {
+        font-weight: bold;
+    }
+}
+
+.classes-complete-table {
+    display: flex;
+    justify-content: center;
+
+    th {
+        background-color: $color-primary;
+        text-align: center;
+        height: 35px;
+        width: 175px;
+    }
+
+    tr {
+        text-align: center;
+    }
+
+    td p {
+        padding: 10px;
+        border-bottom: solid $color-primary 1px;
+        border-right: solid $color-primary 1px;
+        border-left: solid $color-primary 1px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+}

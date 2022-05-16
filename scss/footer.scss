@@ -1,0 +1,111 @@
+#contact {
+    background-color: black;
+    padding: 35px 0px 100px 20px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+
+    h3 {
+        font-size: 30px;
+    }
+
+    span {
+        color: $color-primary;
+        font-weight: bold;
+    }
+}
+
+.contact-socials {
+    padding: 0px 20px 20px 20px;
+
+    h6 {
+        color: white;
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    ul li a {
+        display: block;
+        color: white;
+        line-height: 50px;
+        font-size: 25px;
+        border-radius: 50px;
+        border: solid 2px white;
+    }
+
+    ul li .instagram:hover {
+        background: $color-primary;
+    }
+
+    ul li .facebook:hover {
+        background: $color-primary;
+    }
+
+    ul li .youtube:hover {
+        background: $color-primary;
+    }
+
+}
+
+.contact-help {
+    padding: 0px 20px 20px 20px;
+
+    h6 {
+        color: white;
+        text-align: center;
+    }
+}
+
+.contact-contact {
+    padding: 0px 20px 20px 20px;
+
+    h6 {
+        color: white;
+        text-align: center;
+    }
+
+    ul {
+        text-align: center;
+        padding-right: 20px;
+    }
+
+    ul li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+    }
+
+    ul li a {
+        display: block;
+        color: white;
+        line-height: 50px;
+        font-size: 25px;
+        border-radius: 50px;
+        border: solid 2px white;
+    }
+
+    ul li .whatsapp:hover {
+        background: $color-primary;
+    }
+    
+    ul li .mail:hover {
+        background: $color-primary;
+    }
+}

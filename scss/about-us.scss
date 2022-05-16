@@ -1,0 +1,33 @@
+#about-us {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    padding: 48px 0px;
+    color: #fffcf2;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-us-title {
+    text-align: center;
+    padding-bottom: 24px;
+
+    h3 {
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+
+.about-us-subtitle {
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 24px;
+
+    span {
+        font-weight: 800;
+        color: $color-primary;
+    }
+}
