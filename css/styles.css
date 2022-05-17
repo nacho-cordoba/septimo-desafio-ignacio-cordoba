@@ -79,7 +79,8 @@
   padding-bottom: 24px; }
   .about-us-title h3 {
     font-size: 25px;
-    font-weight: bold; }
+    font-weight: bold;
+    color: white; }
 
 .about-us-subtitle {
   text-align: center;
@@ -103,10 +104,10 @@
     color: white; }
 
 .memberships-title h3 {
-  text-align: center;
   color: white;
-  font-size: 25px;
-  font-weight: bold; }
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center; }
 
 .memberships-title p {
   font-size: 20px;
@@ -114,28 +115,11 @@
   color: white;
   text-align: center; }
 
-.memberships-basic ul {
+.memberships-basic ul, .memberships-full ul {
   list-style-type: none;
   text-align: center; }
 
-.memberships-basic a {
-  border: solid #eb5e28;
-  border-radius: 8px;
-  margin-top: 35px;
-  font-size: 20px;
-  background: #eb5e28;
-  font-weight: bolder;
-  color: white;
-  text-decoration: none;
-  padding: 5px; }
-  .memberships-basic a:hover {
-    font-size: larger; }
-
-.memberships-full ul {
-  list-style-type: none;
-  text-align: center; }
-
-.memberships-full a {
+.memberships-basic a, .memberships-full a {
   border: solid #eb5e28;
   border-radius: 8px;
   font-size: 20px;
@@ -144,7 +128,7 @@
   color: white;
   text-decoration: none;
   padding: 5px; }
-  .memberships-full a:hover {
+  .memberships-basic a:hover, .memberships-full a:hover {
     font-size: larger; }
 
 #contact {

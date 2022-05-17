@@ -23,32 +23,18 @@
     }
 }
 
-.our-gyms-branchs-belgrano {
-    text-align: center;
-    font-weight: 600;
-}
+$sedes: (
+    belgrano,
+    boedo,
+    caballito,
+    palermo,
+    recoleta,
+    vicentelopez,
+);
 
-.our-gyms-branchs-boedo {
-    text-align: center;
-    font-weight: 600;
-}
-
-.our-gyms-branchs-caballito {
-    text-align: center;
-    font-weight: 600;
-}
-
-.our-gyms-branchs-palermo {
-    text-align: center;
-    font-weight: 600;
-}
-
-.our-gyms-branchs-recoleta {
-    text-align: center;
-    font-weight: 600;
-}
-
-.our-gyms-branchs-vicentelopez {
-    text-align: center;
-    font-weight: 600;
+@each $sede in $sedes {
+    .our-gyms-branchs-#{$sede} {
+        text-align: center;
+        font-weight: 600;
+    }
 }
